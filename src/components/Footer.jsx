@@ -51,7 +51,6 @@ function Footer() {
           <div className="flex space-x-4 mb-6">
             <a href="#" className="hover:text-gray-400"><FaFacebookF /></a>
             <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
-            <a href="#" className="hover:text-gray-400"><FaXTwitter /></a>
             <a href="#" className="hover:text-gray-400"><FaYoutube /></a>
           </div>
           <div className="space-y-2 text-sm">
