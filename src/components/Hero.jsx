@@ -16,7 +16,7 @@
 
 function Hero() {
     return (
-        <div className="relative -z-1 h-[240px] sm:h-[400px] md:h-[600px] lg:h-[680px] bg-cover bg-center"
+        <div className="relative -z-1 h-[240px] sm:h-[400px] md:h-[580px] lg:h-[680px] bg-cover bg-center"
             style={{ backgroundImage: "url('Hero_Image.png')" }}
         > 
             

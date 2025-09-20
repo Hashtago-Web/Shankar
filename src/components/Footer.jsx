@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -49,7 +49,6 @@ export default function Footer() {
           </ul>
         </div>
 
-
         {/* Connect & Contact */}
         <div>
           <h3 className="font-bold text-lg mb-4">Connect with us</h3>
@@ -65,24 +64,7 @@ export default function Footer() {
             <p className="flex items-center gap-2">
               <FaEnvelope /> info@vaisnodevisteel@gmail.com
             </p>
-
-        {/* Connect with us */}
-        <div className="space-y-2">
-          <h3 className="font-semibold text-sm sm:text-base md:text-lg mb-3">Connect with us</h3>
-          <div className="flex justify-center xs:justify-start space-x-4 mb-4 text-lg sm:text-xl md:text-2xl">
-            <a href="#" aria-label="Facebook"><FaFacebookF className="hover:text-gray-300" /></a>
-            <a href="#" aria-label="Instagram"><FaInstagram className="hover:text-gray-300" /></a>
-            <a href="#" aria-label="YouTube"><FaYoutube className="hover:text-gray-300" /></a>
-
           </div>
-          <p className="text-xs sm:text-sm md:text-base">Contact us</p>
-          <p className="text-xs sm:text-sm md:text-base"><a href="tel:+9112345678">+91 1234 5678</a></p>
-          <p className="text-xs sm:text-sm md:text-base"><a href="tel:+9112348956">+91 1234 8956</a></p>
-          <p className="text-xs sm:text-sm md:text-base">
-            <a href="mailto:info@vaishnodevisteel@gmail.com">
-              info@vaishnodevi<br/>steel@gmail.com
-            </a>
-          </p>
         </div>
       </div>
     </footer>
