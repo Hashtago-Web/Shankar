@@ -1,7 +1,7 @@
 function Leader() {
     return (
-        <div className="flex min-h-screen ">
-            <div className="px-10 md:px-24 lg:px-32 md:pt-12 py-6 w-full">
+        <div className="flex mb-4 md:mb-10">
+            <div className="px-10 md:px-24 lg:px-32 pt-4 md:pt-5 w-full">
                 <h1 className="font-poppins font-normal md:text-4xl text-xl sm:text-2xl w-full text-center">
                     HEAR FROM OUR <span className="text-blue-900 font-bold">LEADER</span>
                 </h1>
@@ -11,9 +11,9 @@ function Leader() {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-3/5 mt-3 sm:mt-0 ">
                         <h1
-                            className="relative bg-[url('public/Images/Vector.svg')] bg-no-repeat bg-center bg-contain opacity-80 
-            lg:text-2xl md:text-xl text-md text-center sm:text-left lg:leading-loose md:leading-relaxed
-            sm:bg-[length:200px] md:bg-[length:250px] lg:bg-[length:300px]"
+                            className="relative bg-[url('vector.svg')] bg-no-repeat bg-center bg-contain opacity-80 
+            lg:text-2xl md:text-xl text-sm text-center sm:text-left lg:leading-loose md:leading-relaxed
+            sm:bg-[length:200px] md:bg-[length:250px] lg:bg-[length:300px] -z-10"
                         >
                             "l believe that our journey to an Prabesh Prasad is truly
                             underway. India's rise as an economic superpower will be the
