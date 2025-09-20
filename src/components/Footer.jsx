@@ -49,6 +49,23 @@ export default function Footer() {
           </ul>
         </div>
 
+
+        {/* Connect & Contact */}
+        <div>
+          <h3 className="font-bold text-lg mb-4">Connect with us</h3>
+          <div className="flex space-x-4 mb-6">
+            <a href="#" className="hover:text-gray-400"><FaFacebookF /></a>
+            <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
+            <a href="#" className="hover:text-gray-400"><FaYoutube /></a>
+          </div>
+          <div className="space-y-2 text-sm">
+            <p>Contact us</p>
+            <p>+91 1234 5678</p>
+            <p>+91 1234 8956</p>
+            <p className="flex items-center gap-2">
+              <FaEnvelope /> info@vaisnodevisteel@gmail.com
+            </p>
+
         {/* Connect with us */}
         <div className="space-y-2">
           <h3 className="font-semibold text-sm sm:text-base md:text-lg mb-3">Connect with us</h3>
@@ -56,6 +73,7 @@ export default function Footer() {
             <a href="#" aria-label="Facebook"><FaFacebookF className="hover:text-gray-300" /></a>
             <a href="#" aria-label="Instagram"><FaInstagram className="hover:text-gray-300" /></a>
             <a href="#" aria-label="YouTube"><FaYoutube className="hover:text-gray-300" /></a>
+
           </div>
           <p className="text-xs sm:text-sm md:text-base">Contact us</p>
           <p className="text-xs sm:text-sm md:text-base"><a href="tel:+9112345678">+91 1234 5678</a></p>
